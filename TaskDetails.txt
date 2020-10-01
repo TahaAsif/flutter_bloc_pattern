@@ -1,0 +1,17 @@
+Your next task is to implement bloc pattern. 
+
+ 
+
+1- Create Service handler which contains api calls
+
+2- Create Bloc which calls api through service handler and manage Business logic here. 
+
+3- UI communicate with respective bloc.
+
+ 
+
+https://jsonplaceholder.typicode.com/photos
+
+use this url for creating Albums on first page and each Album contains its images just like Gallery App. 
+
+ 
