@@ -14,4 +14,9 @@ https://jsonplaceholder.typicode.com/photos
 
 use this url for creating Albums on first page and each Album contains its images just like Gallery App. 
 
+
+related links:
+
+https://medium.com/zipper-studios/flutter-fetch-data-from-api-and-architect-your-app-using-bloc-pattern-b826f80d6996
+https://stackoverflow.com/questions/51854891/error-listdynamic-is-not-a-subtype-of-type-mapstring-dynamic
  
