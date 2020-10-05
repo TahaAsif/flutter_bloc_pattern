@@ -13,7 +13,7 @@ class ApiProvider {
      final jsonresponse = json.decode(response.body);
 
     if (response.statusCode == 200) {
-      return GalleryImages.fromJson(jsonresponse[0]);
+      return jsonresponse.map<GalleryImages>((x) => GalleryImages.fromjson(x)).toList();
     } else {
       throw Exception('Failed to load images');
     }
