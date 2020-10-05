@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/bloc/images_bloc.dart';
 import 'package:flutter_bloc_pattern/model/gallery_images.dart';
 import "package:collection/collection.dart";
-import 'package:flutter_bloc_pattern/ui/single_album_item.dart';
+import 'package:flutter_bloc_pattern/ui/widgets/single_album_item.dart';
 
 class MyGallery extends StatelessWidget {
   @override

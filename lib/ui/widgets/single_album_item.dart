@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_pattern/model/gallery_images.dart';
-import 'package:flutter_bloc_pattern/ui/second_page.dart';
+import 'package:flutter_bloc_pattern/ui/screens/second_page.dart';
 
 class CustomSingleAlbumItem extends StatelessWidget {
   final Map<dynamic, List<GalleryImages>> albumData;
