@@ -1,5 +1,5 @@
 
-import 'package:flutter_bloc_pattern/model/GalleryImages.dart';
+import 'package:flutter_bloc_pattern/model/gallery_images.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:flutter_bloc_pattern/repository/repository.dart';
 

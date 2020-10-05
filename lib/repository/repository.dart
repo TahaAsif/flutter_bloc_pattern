@@ -1,5 +1,5 @@
-import 'package:flutter_bloc_pattern/model/GalleryImages.dart';
-import 'api_provider.dart';
+import 'package:flutter_bloc_pattern/model/gallery_images.dart';
+import 'service_handler.dart';
 
 class Repository {
   ApiProvider appApiProvider = ApiProvider();
