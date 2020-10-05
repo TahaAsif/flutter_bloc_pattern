@@ -16,7 +16,7 @@ class SecondPage extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("My Gallery"),
+          title: Text("My Images"),
         ),
         body: new Card(
           elevation: 10,
