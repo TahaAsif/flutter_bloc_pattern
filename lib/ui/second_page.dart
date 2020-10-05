@@ -12,30 +12,28 @@ class SecondPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          appBar: AppBar(
-            title: Text("My Gallery"),
-          ),
-          body: new Card(
-            elevation: 10,
-            child: new Container(
-              alignment: Alignment.center,
-              margin: EdgeInsets.all(10),
-              child: GridView.builder(
-                  itemCount: albumData.length,
-                  gridDelegate:
-                      // crossAxisCount stands for number of columns you want for displaying
-                      SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          mainAxisSpacing: 10,
-                          crossAxisSpacing: 15),
-                  itemBuilder: (BuildContext context, int index) {
-                    return CustomSingleGalleryImage(albumData[index]);
-                  }),
-            ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("My Gallery"),
+        ),
+        body: new Card(
+          elevation: 10,
+          child: new Container(
+            alignment: Alignment.center,
+            margin: EdgeInsets.all(10),
+            child: GridView.builder(
+                itemCount: albumData.length,
+                gridDelegate:
+                    // crossAxisCount stands for number of columns you want for displaying
+                    SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                        mainAxisSpacing: 10,
+                        crossAxisSpacing: 15),
+                itemBuilder: (BuildContext context, int index) {
+                  return CustomSingleGalleryImage(albumData[index]);
+                }),
           ),
         ),
       ),
